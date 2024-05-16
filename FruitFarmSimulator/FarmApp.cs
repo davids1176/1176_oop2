@@ -28,18 +28,6 @@ namespace FruitFarmSimulator
             }
         }
 
-        public static int SafelyConvertToInt(string x)
-        {
-            if (int.TryParse(x, out int result))
-            {
-                return result;
-            }
-            else
-            {
-                return 0;
-            }
-        }
-
         public static void Main(string[] args)
         {
             Run();
